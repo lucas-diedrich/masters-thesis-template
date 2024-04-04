@@ -1,4 +1,5 @@
 # README
+Latex template for master's thesis/short dissertations.
 
 
 ## Directory structure
@@ -11,7 +12,7 @@ main.tex <br>
 └── submitted-version <br>
 
 
-- `main.tex` - Run pdflatex/miketex on this file. It will include all subsections, the front-matter, abstract, acknowlegements, table of contents/list of figures/list of tables, and the bibliography. You can add/remove sections by adding/removing `.tex` files in the `./sections` directory. 
+- `main.tex` - Run pdflatex/miketex on this file. It will include all subsections, the front matter, abstract, acknowledgments, table of contents/list of figures/list of tables, and the bibliography. You can add/remove sections by adding/removing `.tex` files in the `./sections` directory. 
 
 
 - `./sections`
@@ -27,7 +28,7 @@ Add figures here (potentially in subdirectories). Can be included in the subsect
 For reproducibility etc. it is recommended to store the final .pdf file or important checkpoints in another directory.
 
 - `.github`
-Implements a github workflow so that, if the document is branched to github, the pdf is automatically compiled by a github action. It is recommended to disable this action during the writing process, as long as figures are updated as binary file formats (image files) are only poorly supported by github and without the files the compilation will fail.
+Implements a GitHub workflow so that, if the document is branched to GitHub, the pdf is automatically compiled by a GitHub action. It is recommended to disable this action during the writing process, as long as figures are updated as binary file formats (image files) are only poorly supported by GitHub, and without the files, the compilation will fail.
 
 
 
