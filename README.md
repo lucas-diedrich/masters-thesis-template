@@ -1,4 +1,5 @@
 # README
+Latex template for master's thesis/short dissertations.
 
 
 ## Directory structure
