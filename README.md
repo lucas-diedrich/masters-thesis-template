@@ -1,5 +1,6 @@
 # README
 
+
 ## Directory structure
 main.tex <br>
 ├── bibliography <br>
@@ -27,3 +28,8 @@ For reproducibility etc. it is recommended to store the final .pdf file or impor
 
 - `.github`
 Implements a github workflow so that, if the document is branched to github, the pdf is automatically compiled by a github action. It is recommended to disable this action during the writing process, as long as figures are updated as binary file formats (image files) are only poorly supported by github and without the files the compilation will fail.
+
+
+
+## Contributing 
+Feel free to raise [issues](https://github.com/lucas-diedrich/masters-thesis-template/issues) or add pull requests to improve this template! 
