@@ -4,7 +4,7 @@ on:
         inputs:
             title:
                 description: "Title of document"
-                default: "main"
+                default: "thesis"
                 type: string
                 required: false
 
@@ -17,7 +17,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex
+          root_file: thesis.tex
       - name: Rename file 
         run:
             mv main.pdf ${{ inputs.title }}.pdf
