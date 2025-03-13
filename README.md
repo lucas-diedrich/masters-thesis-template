@@ -28,8 +28,7 @@ Add figures here (potentially in subdirectories). Can be included in the subsect
 For reproducibility etc. it is recommended to store the final .pdf file or important checkpoints in another directory.
 
 - `.github`
-Implements a GitHub workflow so that, if the document is branched to GitHub, the pdf is automatically compiled by a GitHub action. It is recommended to disable this action during the writing process, as long as figures are updated as binary file formats (image files) are only poorly supported by GitHub, and without the files, the compilation will fail.
-
+Implements a GitHub workflow so that by going to `> Actions > LaTeX Compile/Build > Run Workflow` builds and compiles `.tex` document via a GitHub Actions Runner to a downloadable `.pdf` artifact. The name can be customized while starting the workflow. 
 
 
 ## Contributing 
