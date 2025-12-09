@@ -3,13 +3,15 @@ Latex template for master's thesis/short dissertations.
 
 
 ## Directory structure
-main.tex <br>
-├── bibliography <br>
-├── figures <br>
-├── .github <br>
-│   └── workflows <br>
-├── sections <br>
-└── submitted-version <br>
+```shell
+main.tex 
+├── bibliography 
+├── figures 
+├── .github 
+│   └── workflows 
+├── sections 
+└── submitted-version
+```
 
 
 - `main.tex` - Run pdflatex/miketex on this file. It will include all subsections, the front matter, abstract, acknowledgments, table of contents/list of figures/list of tables, and the bibliography. You can add/remove sections by adding/removing `.tex` files in the `./sections` directory. 
